@@ -1,0 +1,13 @@
+{
+  "name": "ng2-template",
+  "version": "0.0.1",
+  "dependencies": {
+    "moment": "*"
+  },
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*"
+  }
+}
