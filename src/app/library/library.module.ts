@@ -9,6 +9,7 @@ import { LibraryComponent } from './library.component';
     CommonModule
   ],
   declarations: [LibraryComponent],
+  exports: [LibraryComponent],
   bootstrap: [LibraryComponent]
 })
 export class LibraryModule { }

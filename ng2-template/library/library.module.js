@@ -12,6 +12,7 @@ export var LibraryModule = (function () {
                         CommonModule
                     ],
                     declarations: [LibraryComponent],
+                    exports: [LibraryComponent],
                     bootstrap: [LibraryComponent]
                 },] },
     ];

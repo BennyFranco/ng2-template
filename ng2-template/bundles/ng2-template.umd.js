@@ -102,8 +102,7 @@ var LibraryComponent = (function () {
     LibraryComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-library',
-            templateUrl: './library.component.html',
-            styleUrls: ['./library.component.css']
+            template: "<p>library works!</p>"
         }), 
         __metadata('design:paramtypes', [])
     ], LibraryComponent);
@@ -153,6 +152,7 @@ var LibraryModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"]
             ],
             declarations: [__WEBPACK_IMPORTED_MODULE_3__library_component__["a" /* LibraryComponent */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_3__library_component__["a" /* LibraryComponent */]],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_3__library_component__["a" /* LibraryComponent */]]
         }), 
         __metadata('design:paramtypes', [])

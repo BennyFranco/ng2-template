@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "../../ng2-template",
+    "baseUrl": "./app",
     "target": "es5",
-    "module": "es2015",
+    "module": "es6",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -17,19 +18,18 @@
     "noUnusedParameters": false,
     "lib": ["dom", "es6"],
     "types": [
-      "jasmine"
+      "jasmine",
+      "../node_modules/@types/node"
     ]
   },
   "exclude": [
     "node_modules"
   ],
-  "files": [
-    "./index.ts"
-  ],
   "angularCompilerOptions": {
     "genDir": "../temp/factories",
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
+    
     "entryModule": "app/library/library.module#LibraryModule"
   },
   "awesomeTypescriptLoaderOptions": {
