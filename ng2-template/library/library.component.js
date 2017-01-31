@@ -7,7 +7,8 @@ export var LibraryComponent = (function () {
     LibraryComponent.decorators = [
         { type: Component, args: [{
                     selector: 'app-library',
-                    template: "<p>library works!</p>"
+                    //template: `<p>library works!</p>`
+                    templateUrl: './library.component.html'
                 },] },
     ];
     /** @nocollapse */

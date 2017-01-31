@@ -53,5 +53,12 @@
       "pipe": true,
       "service": true
     }
-  }
+  },
+  "module":[{
+    "name": "ng2-template",
+    "root": "src",
+    "outDir": "dist",
+    "main":"index.ts",
+    "tsconfig": "tsconfig.json"
+  }]
 }

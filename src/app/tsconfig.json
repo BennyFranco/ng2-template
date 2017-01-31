@@ -31,9 +31,5 @@
     "skipTemplateCodegen": true,
     
     "entryModule": "app/library/library.module#LibraryModule"
-  },
-  "awesomeTypescriptLoaderOptions": {
-    "forkChecker": true,
-    "useWebpackText": true
   }
 }

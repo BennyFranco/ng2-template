@@ -102,7 +102,8 @@ var LibraryComponent = (function () {
     LibraryComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-library',
-            template: "<p>library works!</p>"
+            //template: `<p>library works!</p>`
+            templateUrl: './library.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], LibraryComponent);
