@@ -38,3 +38,10 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+### Node ###
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
