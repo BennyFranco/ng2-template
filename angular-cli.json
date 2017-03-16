@@ -1,6 +1,6 @@
 {
   "project": {
-    "version": "1.0.0-beta.26",
+    "version": "1.0.0-rc.2",
     "name": "ng2-template"
   },
   "apps": [
@@ -21,6 +21,7 @@
         "styles.css"
       ],
       "scripts": [],
+      "environmentSource": "environments/environment.ts",
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
